@@ -1,19 +1,19 @@
-= Maji Test Project =
+# Maji Test Project
 
-== Prerequisite ==
+## Prerequisite
 
 * terraform >= 0.12
 * aws-cli with valid aws credentials
 * node.js >= 10.0
 
-== Compile ==
+## Compile
 
 ```sh
 cd function
 npm install
 ```
 
-== Usage ==
+## Usage
 
 Update correct aws profile info in `variable.tf`,
 then run:
@@ -32,14 +32,14 @@ To destroy run:
 terraform destroy
 ```
 
-== Unit test ==
+## Unit test
 
 ```sh
 cd function/test
 node test.js
 ```
 
-== Integration test ==
+## Integration test
 
 Update correct aws profile info in `variable.tf`,
 then run:
